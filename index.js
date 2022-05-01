@@ -1,19 +1,19 @@
 // let number = max(2, 3);
 // console.log(number);
 
-// let landscape = isLandscape(1, 2);
-// console.log(landscape);
-
-let fizzbuzz = fizzBuzz('a');
-console.log(fizzbuzz);
-
 function max(a, b) {
     return (a > b) ? a : b;
 }
 
+// let landscape = isLandscape(1, 2);
+// console.log(landscape);
+
 function isLandscape(width, height) {
     return (width > height);
 }
+
+// let fizzbuzz = fizzBuzz('a');
+// console.log(fizzbuzz);
 
 function fizzBuzz(input) {
     if (typeof input !== 'number') return NaN;
